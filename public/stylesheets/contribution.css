@@ -1,0 +1,148 @@
+header{
+    height: 55vh;
+    background-image: url("/images/fondbois.jpg");
+    background-size: cover;
+    background-position: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 90%;
+    margin : 0 auto; */
+}
+
+.bg-color {
+    background-color: teal;
+    width: fit-content;
+    height: fit-content;
+    margin:  auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.bg-border {
+    width: fit-content;
+    height: fit-content;
+    margin:  auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 5%;
+    border: 2px solid;
+    text-align: center;
+    font-size: 3vh;
+}
+h1 {
+    font-size: 8vh;
+}
+
+#intro {
+    width: 60%;
+    margin: 2% auto;
+    text-align: center;
+    padding: 2%;
+    color: tomato;
+    font-size: 3.5vh;
+}
+
+#intro span {
+    font-weight: 1000;
+    font-size: larger;
+}
+
+#contribution {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 7vh;
+}
+
+/* #text, #suggestion {
+    width: 40%;
+} */
+
+#contribution hr {
+    height: 50vh;
+    border : 1px dashed teal;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid teal;
+    height: 5vh;
+    width: 35vh;
+}
+
+form {
+    margin-top: 4vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field {
+    margin: 2VH 0;
+}
+
+.form-field{
+    display: flex;
+    align-items: flex-end;
+}
+.form-field > *{
+    margin : 0 2VH;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form-text > * {
+    margin-bottom: 1vh;
+}
+
+.form-placeholder {
+    margin: 0 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-placeholder .form-explication {
+    text-align: center;
+    width: 70%;
+}
+
+textarea {
+    border: 2px solid teal;
+    border-radius: 4px;
+}
+
+label {
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* #test  {
+    background-color: yellowgreen;
+}
+
+#suggestion {
+    background-color: yellow;
+} */
+
+form button {
+    width: 15vh;
+    height: 5vh;
+    background-color: white;
+    border-radius: 60px;
+    border: 2px solid teal;
+    color : teal;
+    font-weight: bolder;
+    margin-top: 5vh;
+}

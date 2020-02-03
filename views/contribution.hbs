@@ -1,0 +1,60 @@
+<header>
+    <div class="bg-color">
+        <div class="bg-border">
+            <h1>Ansanm Ansanm</h1>
+            <p>Apportez votre contpribution our une construction collaborative</p>
+        </div>
+    </div>
+</header>
+<section id="intro">
+    <p>Intéressé par le projet ? Apportez votre pierre à l'édifice en participant à la boite à idée, en testant l'application ou tout simplement en partageant.</p>
+    <span>Mèsi en chay !</span>
+</section>
+<div id="contribution">
+    <section id="suggestion" class="form-placeholder">
+        <div class="form-explication">
+        <h2>Bwèt Lidé</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, sequi velit beatae eveniet voluptas !</p>
+        </div>
+        <form action="/admin" method="POST">
+        <div class="form-field field">
+            <label for="sujet">Sujet</label>
+            <select class="input" name="sujet" id="sujet">
+                <option value="">Choisir une option</option>
+                <option value="expression">Une nouvelle expression</option>
+                <option value="fonctionnalité">Une nouvelle fonctionnalité</option>
+                <option value="jeu">Une idée de jeu</option>
+            </select>
+        </div>
+        <div class="form-text field">
+            <label for="description">Suggestion</label>
+            <textarea id="description" name="description" rows="10" cols="70">
+                Dites-nous tout...
+            </textarea>
+        </div>
+        <div class="form-field field">
+            <label for="email">Contact</label>
+            <input class="input" type="email" name="email" id="email">
+        </div>
+        <button type="submit">OK</button>
+        </form>
+    </section>
+    <hr>
+    <section id="test" class="form-placeholder">
+        <div class="form-explication">
+        <h2>Bétè Testè</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, sequi velit beatae eveniet voluptas !</p>
+        </div>
+        <form action="/admin" method="POST">
+        <div class="form-field field">
+            <label for="nom">Nom</label>
+            <input class="input" type="text" name="nom" id="nom">
+        </div>
+        <div class="form-field field">
+            <label for="email">Contact</label>
+            <input class="input" type="email" name="email" id="email">
+        </div>
+        <button type="submit">OK</button>
+        </form>
+    </section>
+</div>

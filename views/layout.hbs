@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    {{#each stylesheets}}
+    <link rel="stylesheet" href="/stylesheets/{{this}}.css">
+    {{/each}}
+  </head>
+  <body>
+    <nav>
+      <p><span>KreyoL</span></p>
+      <div class="div-nav">
+        <a href="/">Home</a>
+        <a href="/epizot">Epi Zot</a>
+        <a href="/jwennnou">Jwenn Nou</a>
+        <a href="/admin">Admin</a>
+      </div>
+    </nav>
+    {{{body}}}
+    <footer>
+      <div>To do</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+
+header{
+    height: 55vh;
+    background-image: url("/images/fondbois.jpg");
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.bg-dark {
+    background-color: rgba(17, 16, 16, 0.288);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#ambitions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    background-color: whitesmoke;
+    padding: 10vh 0;
+}
+
+#div-ambitions {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.each-ambition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 6vh;
+
+}
+
+.each-ambition > * {
+    margin-top : 2vh;
+}
+
+.icone {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+#jeu {
+    height: max(50vh);
+    color: white;
+    display: flex;
+    width: 80%;
+    margin : -5vh auto 0;
+}
+
+#apprendre {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 5vh;
+    height: fit-content;
+    background-color: tomato;
+}
+#apprendre article{
+    width: 70%;
+    margin : 2Vh 0;
+}
+#apprendre hr{
+    width: 30%;
+    border: 1px solid white;
+}
+
+#demo {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 5vh;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+}
